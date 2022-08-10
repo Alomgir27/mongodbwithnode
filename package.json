@@ -1,0 +1,27 @@
+{
+  "name": "mongodbwithnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "es6": "0.0.7",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "fs": "0.0.1-security",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^6.1.9",
+    "multer": "^1.3.0",
+    "multer-gridfs-storage": "^3.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
